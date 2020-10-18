@@ -1,0 +1,81 @@
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #28a745;
+  --bs-teal: #20c997;
+  --bs-cyan: #17a2b8;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #28a745;
+  --bs-info: #17a2b8;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #343a40;
+}
+
+.w0 {
+  width: 100%;
+  position: relative;
+}
+
+.w1 {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 0 0 0;
+}
+
+.colorFFF {
+  color: #ffffff;
+}
+
+.color000 {
+  color: #000000;
+}
+
+.bgE5E5E5 {
+  background-color: #e5e5e5;
+}
+
+a.hover {
+  text-decoration: none !important;
+}
+
+.hide_600 {
+  display: block;
+  display: inline-block;
+}
+
+.show_600 {
+  display: none;
+}
+
+.visible {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* .indent0 {
+  padding-left: 0;
+}
+
+.indent1 {
+  padding-left: 0.625rem;
+}
+
+.indent2 {
+  padding-left: 0.9375rem;
+}
+
+.indent3 {
+  padding-left: 1.25rem;
+} */
