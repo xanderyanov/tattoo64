@@ -1,0 +1,85 @@
+- var pageTitle = 'Главная страница'
+- var seoKeywords = 'Ключевые слова для страницы'
+- var seoDesc = 'Сео описание для страницы'
+
+include __const
+include __header
+include __footer
+
+
+
+
+<!DOCTYPE html>
+html(lang="ru-RU")
+  +head
+body
+
+  .site__header
+    .main1(style="background-image: url(assets/img/bg1.jpg)")
+      .header__main
+        +header
+      .main1__sloganArea
+        .p1280
+          .slogan
+            .slogan__row.slogan__rowTop
+              span.gold Тату
+              span.white Студия
+            .slogan__row
+              span.white старого
+              span.gold пирата
+      .age
+        img(src="assets/img/18.png", alt="")
+        .toBottom.go_to1
+          i.icon-circle-down
+
+            
+
+      
+
+  .site__center.go_adr1
+    .jack__area(data-speed="3" data-type="background" style="background-image: url(assets/img/bg2.jpg)")
+      .jack_quote.p1280
+        .jack__text «Покажите мне человека с татуировкой и я покажу вам человека с интересным прошлым...»
+        .jack__name Джек Лондон
+
+    .about__area(data-speed="10" data-type="background" style="background-image: url(assets/img/bg3.jpg)")
+      .about__outer.p1280
+        .about
+          .about__left
+            .mainBlock
+              .mainBlock__title 
+                span.white О мастере:
+              a.redmire_link.gold(href="#") Подробнее
+          .about__right
+            .about__content
+              span.gold Я один из старых татуировщиков Саратова и Энгельса. Начинал свой путь в далеких 90-х, когда еще и не родились некоторые мои клиенты. В то время только зарождалось тату-искусство не криминального направления. Всегда старался работать в стиле реализм. Многих я от татуировки отговариваю, когда понимаю, что человек не готов.
+              span.white Оттачивая свое мастерство, перепробовал массу технических новинок, работал в главной и северной столицах, а теперь возвращаюсь к истокам...
+              span.gold Моя студия - тихая гавань, в которой вы найдете покой, умировотворение и конечно, мою нескончаемую энергию, которая воплотится в Вашем тату...
+
+    .serv__area(data-speed="6" data-type="background" style="background-image: url(assets/img/bg4.jpg)")
+      .serv__outer.p1280
+        .serv
+          .serv__left
+            .mainBlock
+              .mainBlock__title 
+                span.white Мои
+                span.black Направления:
+              .mainBlock__info Каждая моя работа - это <span class="white">воплощение ваших желаний</span> и моих идей в впечатляющий результат.
+          .serv__right
+            .service.service__main
+              .service__itemOuter
+                a.service__item(href="" style="background-image: url(assets/img/serv/01.jpg)")
+                  span Классическая татуировка
+              .service__itemOuter
+                a.service__item(href="" style="background-image: url(assets/img/serv/02.jpg)")
+                  span Новая классика
+              .service__itemOuter
+                a.service__item(href="" style="background-image: url(assets/img/serv/03.jpg)")
+                  span Реставрация и обновление тату
+
+
+  .site__footer
+    +footer
+
+  +scripts
+  

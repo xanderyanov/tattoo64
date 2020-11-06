@@ -1,0 +1,31 @@
+mixin header
+  .header__area
+    .header__outer.p1280
+      header.header
+        .logo1
+          a(href="#")
+            img(src="assets/img/logo3.svg", alt="")
+        nav.topMenu__area
+          ul.topMenu
+            li.active
+              a(href="#") Главная
+            li
+              a(href="#") О мастере
+            li
+              a(href="#") Услуги
+            li
+              a(href="#") Цены
+            li
+              a(href="#") Работы
+            li
+              a(href="#") Контакты
+
+
+mixin videoBg
+  .imgCover(style="background-image: url(assets/img/bg/bg1.jpg)")
+  video.videocover(loop='', muted='', autoplay='', poster='assets/img/bg/bg1.jpg')
+    source(src='assets/img/video/tattoo1.mp4', type='video/mp4')
+
+
+
+
