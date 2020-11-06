@@ -1,0 +1,68 @@
+@media only screen and (max-width: 1280px) {
+}
+
+@media only screen and (max-width: 1140px) {
+}
+
+@media only screen and (max-width: 1080px) {
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 920px) {
+}
+
+@media only screen and (max-width: 800px) {
+  .topMenu__area {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .menuButton {
+    display: block;
+  }
+  .topMenu__area {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    background-image: url(../img/logo4.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom 30px;
+  }
+
+  .topMenu__outer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .topMenu {
+    flex-direction: column;
+  }
+  .topMenu li {
+    margin: 0 0 20px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and (max-width: 400px) {
+}
+
+@media only screen and (max-width: 320px) {
+}

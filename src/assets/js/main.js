@@ -87,17 +87,17 @@ $(function () {
     e.preventDefault();
     if ($(this).hasClass("open")) {
       $(this).removeClass("open");
-      $(".aMenu_js").slideUp(200);
+      $(".topMenu__area").slideUp(200);
       $("body").removeClass("stop");
     } else {
       $(this).addClass("open");
-      $(".aMenu_js").slideDown(200);
+      $(".topMenu__area").slideDown(200);
       $("body").addClass("stop");
     }
   });
   $(".adaptiveMenu__close").on("click", function () {
     $(".menuButton").removeClass("open");
-    $(".aMenu_js").slideUp(200);
+    $(".topMenu__area").slideUp(200);
     $("body").removeClass("stop");
   });
 });

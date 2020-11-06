@@ -37,3 +37,8 @@
 .black {
   color: #000;
 }
+
+.stop {
+  overflow: hidden;
+  padding-right: 0;
+}

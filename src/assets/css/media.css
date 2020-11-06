@@ -3,6 +3,10 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+  .age {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media only screen and (max-width: 1140px) {
@@ -21,6 +25,18 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .slogan__rowTop span {
+    font-size: 3rem;
+  }
+  .slogan__row span {
+    font-size: 2.5rem;
+  }
+  .logo1 {
+    max-width: 170px;
+  }
+  .age img {
+    width: 40px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
