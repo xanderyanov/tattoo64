@@ -22,53 +22,30 @@ $(function () {
     });
   });
 
-  if ($(".carousel__container").length) {
-    var carousel = new Swiper(".carousel__container", {
-      slidesPerView: 1,
-      spaceBetween: 15,
-      slidesPerGroup: 1,
+  if ($(".portfolioCarousel-container").length) {
+    var swiper = new Swiper(".portfolioCarousel-container", {
+      slidesPerView: 3,
       loop: true,
-      loopFillGroupWithBlank: true,
+      spaceBetween: 50,
+      speed: 600,
       autoplay: {
-        delay: 5500,
-        disableOnInteraction: false,
+        delay: 177000,
+        disableOnInteraction: true,
       },
       navigation: {
-        nextEl: ".carousel__btnNext",
-        prevEl: ".carousel__btnPrev",
+        nextEl: ".portfolioCarousel__right",
+        prevEl: ".portfolioCarousel__left",
       },
+      keyboard: true,
       breakpoints: {
-        1024: {
-          slidesPerView: 6,
-          spaceBetween: 15,
-        },
-        920: {
-          slidesPerView: 5,
-          spaceBetween: 10,
-        },
-        768: {
-          slidesPerView: 4,
-          spaceBetween: 10,
+        0: {
+          slidesPerView: 2,
         },
         600: {
           slidesPerView: 3,
-          spaceBetween: 5,
-        },
-        // 480: {
-        //   slidesPerView: 2,
-        //   spaceBetween: 5,
-        // },
-        321: {
-          slidesPerView: 2,
-          spaceBetween: 5,
         },
       },
     });
-  }
-
-  if ($(".headerPaddingArea").length) {
-    var headerPaddingAreaHeight = $(".header__area").outerHeight();
-    $(".headerPaddingArea").css({ height: headerPaddingAreaHeight });
   }
 
   $(".content table").wrap('<div class="table_outer"></div>');

@@ -21,6 +21,8 @@
 @import "__footer.css";
 @import "__footer-media.css";
 
+@import "../chunks/portfolioCarousel/__portfolioCarousel.css";
+@import "../chunks/portfolioCarousel/__portfolioCarousel-media.css";
 /* @import "__breadcrumbs.css"; */
 
 @import "main.css";

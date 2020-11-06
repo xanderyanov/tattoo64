@@ -1,7 +1,38 @@
 mixin footer 
-  .footer__area
-    .footer__outer
+  .footer__area(style="background-image: url(assets/img/bg7.jpg)")
+    .footer__outer.p1280
       footer.footer
+        .f1
+          .footer__logo
+            img(src="assets/img/logo3.svg", alt="")
+          .oferta
+            span.white *Информация на сайте
+            span.gold не является публичной офертой
+          a.dev(href="https://site-a.ru" target="_blank")
+            span.gold Разработка сайта
+            span.white web-студия "Сайт-А"
+        .f2
+          nav.footerMenu__area
+            ul.footerMenu
+              li.active
+                a(href="#") Главная
+              li
+                a(href="#") О мастере
+              li
+                a(href="#") Услуги
+              li
+                a(href="#") Цены
+              li
+                a(href="#") Работы
+              li
+                a(href="#") Контакты
+          a.policy(href="#")
+            span.white Политика конфиденциальности
+            span.gold и обработки персональных данных
+        .f3
+          .good
+            span.gold Берегите себя
+            span.white и своих близких
         
 
   

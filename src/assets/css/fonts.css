@@ -1,9 +1,9 @@
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon.eot?p9szwz");
-  src: url("../fonts/icomoon.eot?p9szwz#iefix") format("embedded-opentype"),
-    url("../fonts/icomoon.ttf?p9szwz") format("truetype"), url("../fonts/icomoon.woff?p9szwz") format("woff"),
-    url("../fonts/icomoon.svg?p9szwz#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?t4gsfe");
+  src: url("../fonts/icomoon.eot?t4gsfe#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?t4gsfe") format("truetype"), url("../fonts/icomoon.woff?t4gsfe") format("woff"),
+    url("../fonts/icomoon.svg?t4gsfe#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,36 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-anchor:before {
+  content: "\e954";
+}
+.icon-chair:before {
+  content: "\e955";
+}
+.icon-flower:before {
+  content: "\e956";
+}
+.icon-heart:before {
+  content: "\e957";
+}
+.icon-horse-tattoo-variant-facing-the-left:before {
+  content: "\e959";
+}
+.icon-ink:before {
+  content: "\e95a";
+}
+.icon-numb-spray:before {
+  content: "\e95b";
+}
+.icon-swallow:before {
+  content: "\e95c";
+}
+.icon-tattoo:before {
+  content: "\e95d";
+}
+.icon-tattoo-machine:before {
+  content: "\e95e";
+}
 .icon-leftss2:before {
   content: "\e952";
 }

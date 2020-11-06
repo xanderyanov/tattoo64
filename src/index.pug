@@ -5,6 +5,7 @@
 include __const
 include __header
 include __footer
+include assets/chunks/portfolioCarousel/__portfolioCarousel
 
 
 
@@ -42,7 +43,7 @@ body
         .jack__text «Покажите мне человека с татуировкой и я покажу вам человека с интересным прошлым...»
         .jack__name Джек Лондон
 
-    .about__area(data-speed="10" data-type="background" style="background-image: url(assets/img/bg3.jpg)")
+    .about__area(style="background-image: url(assets/img/bg3.jpg)")
       .about__outer.p1280
         .about
           .about__left
@@ -56,7 +57,7 @@ body
               span.white Оттачивая свое мастерство, перепробовал массу технических новинок, работал в главной и северной столицах, а теперь возвращаюсь к истокам...
               span.gold Моя студия - тихая гавань, в которой вы найдете покой, умировотворение и конечно, мою нескончаемую энергию, которая воплотится в Вашем тату...
 
-    .serv__area(data-speed="6" data-type="background" style="background-image: url(assets/img/bg4.jpg)")
+    .serv__area(style="background-image: url(assets/img/bg4.jpg)")
       .serv__outer.p1280
         .serv
           .serv__left
@@ -77,9 +78,48 @@ body
                 a.service__item(href="" style="background-image: url(assets/img/serv/03.jpg)")
                   span Реставрация и обновление тату
 
+    .studioIcon__area(data-speed="5" data-type="background" style="background-image: url(assets/img/bg5.jpg)")
+      .studioIcon__outer.p1280
+        .studioIcon__title
+          span.white Моя
+          span.gold тату-студия
+          span.white это
+        .studioIcon
+          .studioIcon__item
+            i.icon-numb-spray
+            span Стерильность
+          .studioIcon__item
+            i.icon-ink
+            span Качественные расходники
+          .studioIcon__item
+            i.icon-chair
+            span Удобство
+          .studioIcon__item
+            i.icon-tattoo-machine
+            span Современное оборудование
+    
+    .portfolioCarousel__area( style="background-image: url(assets/img/bg6.jpg)")
+      .portfolioCarousel__outer.p1280
+        .portfolioCarousel
+          .portfolioCarousel__title
+            .portfolioCarousel__titleLeft
+              span.white Мои
+              span.black работы
+            a.portfolioCarousel__titleRight(href="")
+              span.white Смотреть
+              span.black еще...
+          .portfolioCarousel__slider
+            +portfolioCarousel
+
+
+
 
   .site__footer
     +footer
+
+  .toTop
+    i.icon-circle-up
+
 
   +scripts
   

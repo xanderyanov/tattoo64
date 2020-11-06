@@ -1,0 +1,75 @@
+.portfolioCarousel__slider {
+  padding: 2rem 0 1rem;
+  position: relative;
+}
+.portfolioCarousel-container {
+  position: relative;
+  margin: 0 7rem;
+}
+
+.portfolioCarousel__left,
+.portfolioCarousel__right {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  top: 50%;
+  margin-top: -1.5rem;
+  background: #fff;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.portfolioCarousel__left:hover,
+.portfolioCarousel__right:hover {
+  background: #000;
+}
+
+.portfolioCarousel__left:focus,
+.portfolioCarousel__right:focus {
+  border: none;
+  outline: none;
+}
+
+.portfolioCarousel__left {
+  left: 0;
+}
+
+.portfolioCarousel__right {
+  right: 0;
+}
+
+.portfolioCarousel__left i,
+.portfolioCarousel__right i {
+  font-size: 1.5rem;
+  color: #000;
+  transition: all 0.3s;
+}
+
+.portfolioCarousel__left:hover i,
+.portfolioCarousel__right:hover i {
+  color: var(--gold);
+}
+
+.portfolioCarousel__itemOuter {
+  width: 100%;
+}
+.portfolioCarousel__item {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  border: 10px solid #000;
+  transition: all 0.5s;
+  box-sizing: border-box;
+}
+.portfolioCarousel__item {
+  border: 10px solid #fff;
+}
+.portfolioCarousel__item img {
+  display: block;
+  width: 100%;
+}

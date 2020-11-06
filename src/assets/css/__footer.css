@@ -1,3 +1,132 @@
+.footer__area {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+}
+.footer__outer {
+  padding: 50px 0 20px;
+}
 .footer {
-  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.f1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.footer__logo {
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 50px;
+}
+.footer__logo img {
+  display: block;
+  width: 100%;
+}
+
+.oferta {
+  margin-bottom: 10px;
+}
+.oferta span {
+  font-size: 0.875rem;
+}
+.oferta span:first-child {
+  margin-right: 5px;
+}
+
+.dev {
+  text-decoration: none;
+  color: var(--gold);
+}
+.dev:hover {
+  text-decoration: underline;
+}
+.dev span {
+  font-size: 0.875rem;
+}
+.dev span:first-child {
+  margin-right: 5px;
+}
+
+.f2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footerMenu__area {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footerMenu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.footerMenu li {
+  display: flex;
+  list-style: none;
+  margin-right: 1.75rem;
+}
+
+.footerMenu li:last-child {
+  margin-right: 0;
+}
+
+.footerMenu li a {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  font-size: 1.25rem;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.footerMenu li.active a,
+.footerMenu li a:hover {
+  color: var(--gold);
+}
+
+.policy {
+  display: flex;
+  text-decoration: none;
+  color: var(--gold);
+  margin-top: auto;
+}
+.policy:hover {
+  text-decoration: underline;
+}
+.policy span {
+  font-size: 0.875rem;
+}
+.policy span:first-child {
+  margin-right: 5px;
+}
+
+.f3 {
+  width: 100%;
+  padding: 40px 0 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.good {
+  position: relative;
+}
+
+.good span {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.good span:first-child {
+  margin-right: 5px;
 }
