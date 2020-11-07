@@ -63,10 +63,10 @@
   width: 100%;
   text-decoration: none;
   border: 10px solid #000;
-  transition: all 0.5s;
+  transition: all 0.8s;
   box-sizing: border-box;
 }
-.portfolioCarousel__item {
+.portfolioCarousel__item:hover {
   border: 10px solid #fff;
 }
 .portfolioCarousel__item img {

@@ -49,3 +49,42 @@ mixin scripts
 mixin toUp
   .toTop
     i.icon-up1
+
+
+mixin videogallery
+  .innerBox
+    .title2
+      h2 Видеогалерея H2
+    .videoBox__area
+      .videoBox__outer
+        .videoBox
+          a(data-fancybox='', href='https://www.youtube.com/watch?v=dl16e_mG6hg')
+            img(src='https://img.youtube.com/vi/dl16e_mG6hg/sddefault.jpg', alt='')
+      .videoBox__outer
+        .videoBox
+          a(data-fancybox='', href='https://www.youtube.com/watch?v=P5csD0SX8jI')
+            img(src='https://img.youtube.com/vi/P5csD0SX8jI/sddefault.jpg', alt='')
+
+mixin gallery
+  .innerBox
+    .title2
+      h2 Галерея H2
+    .gallery
+      .gallery__item
+        a(href='assets/img/serv/01.jpg', data-fancybox='group', data-caption='002')
+          img(src='assets/img/serv/01.jpg', alt='1')
+      .gallery__item
+        a(href='assets/img/serv/02.jpg', data-fancybox='group', data-caption='002')
+          img(src='assets/img/serv/02.jpg', alt='1')
+      .gallery__item
+        a(href='assets/img/serv/03.jpg', data-fancybox='group', data-caption='002')
+          img(src='assets/img/serv/03.jpg', alt='1')
+      .gallery__item
+        a(href='assets/img/serv/01.jpg', data-fancybox='group', data-caption='002')
+          img(src='assets/img/serv/01.jpg', alt='1')
+      .gallery__item
+        a(href='assets/img/serv/02.jpg', data-fancybox='group', data-caption='002')
+          img(src='assets/img/serv/02.jpg', alt='1')
+      .gallery__item
+        a(href='assets/img/serv/03.jpg', data-fancybox='group', data-caption='002')
+          img(src='assets/img/serv/03.jpg', alt='1')

@@ -41,7 +41,15 @@ $(function () {
         0: {
           slidesPerView: 2,
         },
+        480: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
         600: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        920: {
           slidesPerView: 3,
         },
       },

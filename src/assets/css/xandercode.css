@@ -22,6 +22,7 @@
   --bs-dark: #343a40;
   --gold-: #ffb500;
   --gold: #d3a06d;
+  --gold2: rgba(211, 160, 109, 0.8);
   --grafit1: #1a1d25;
   --grafit2: rgba(26, 29, 37, 0.5);
 }
@@ -41,4 +42,10 @@
 .stop {
   overflow: hidden;
   padding-right: 0;
+}
+
+.clearfix::after {
+  content: ""; /* Генерируем пустой элемент */
+  clear: both; /* Отменяем обтекание*/
+  display: block; /* Блочный элемент */
 }

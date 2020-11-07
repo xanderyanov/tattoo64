@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1280px) {
+}
+
+@media only screen and (max-width: 1140px) {
+}
+
+@media only screen and (max-width: 1080px) {
+}
+
+@media only screen and (max-width: 1024px) {
+  .priceItemImg {
+    width: 30%;
+  }
+  .priceItem__info {
+    width: 70%;
+    padding-left: 20px;
+  }
+  .priceItem__time {
+    flex-direction: column;
+  }
+  .priceItem__time span {
+    text-align: center;
+  }
+  .priceItem__time span:last-child {
+    margin: 0;
+  }
+  .priceItem__price {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .priceItem__price span {
+    text-align: center;
+  }
+  .priceItem__price span:last-child {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+}
+
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .priceItemImg {
+    width: 40%;
+  }
+  .priceItem__info {
+    width: 60%;
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .price__itemOuter {
+    padding: 10px 0;
+  }
+  .price {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .priceItem {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .priceItemImg {
+    width: 100%;
+  }
+  .priceItem__info {
+    width: 100%;
+    padding: 15px 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+}

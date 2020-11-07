@@ -1,0 +1,108 @@
+- var pageTitle = 'Текстовая'
+- var seoKeywords = 'Ключевые слова для страницы'
+- var seoDesc = 'Сео описание для страницы'
+
+include __const
+include __header
+include __footer
+include assets/chunks/portfolioCarousel/__portfolioCarousel
+
+
+
+
+<!doctype html>
+html(lang="ru-RU")
+  +head
+body
+
+  .site__header
+    +header
+
+  .site__center.page__wrapper(style="background-image: url(assets/img/bg9.jpg)")
+    .page__area
+      .pageTitle__outer.p1280
+        .pageTitle
+            h1 Заголовок статьи
+      .page__outer.p1280
+        .page
+          .content.clearfix
+            h2 Заголовок 2
+            h3 Заголовок 3
+            h4 Заголовок 4
+            h5 Заголовок 5
+            h6 Заголовок 6
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, voluptatem facilis atque veniam quaerat sapiente nulla rem expedita, amet cumque illum dolore, perspiciatis animi ducimus placeat eos? Vel, repudiandae quam.
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, voluptatem facilis atque veniam quaerat sapiente nulla rem expedita, amet cumque illum dolore, perspiciatis animi ducimus placeat eos? Vel, repudiandae quam.
+            p Lorem ipsum dolor sit amet <a href="#">consectetur adipisicing</a> elit. Officia, voluptatem facilis atque veniam quaerat sapiente nulla rem expedita, amet cumque illum dolore, perspiciatis animi ducimus placeat eos? Vel, repudiandae quam.
+            img(src="assets/img/serv/01.jpg", alt="", style="float: right")
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, voluptatem facilis atque veniam quaerat sapiente nulla rem expedita, amet cumque illum dolore, perspiciatis animi ducimus placeat eos? Vel, repudiandae quam.
+            p Lorem ipsum dolor sit amet <a href="#">consectetur adipisicing</a> elit. Officia, voluptatem facilis atque veniam quaerat sapiente nulla rem expedita, amet cumque illum dolore, perspiciatis animi ducimus placeat eos? Vel, repudiandae quam.
+            blockquote 
+              p Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, eius.
+            p Lorem ipsum dolor sit <strong>amet consectetur adipisicing</strong> elit. Officia, voluptatem facilis atque veniam quaerat sapiente nulla rem expedita, amet cumque illum dolore, perspiciatis animi ducimus placeat eos? Vel, repudiandae quam.
+            h3 Таблица с принудительной шириной width="100%"
+            table(width='100%')
+              tbody
+                tr
+                  td Строка 1 столбец 1
+                  td
+                    | Lorem ipsum 
+                    strong dolor
+                    |  sit amet.
+                  td
+                    ul
+                      li
+                        | Lorem ipsum
+                        strong dolor
+                        |  sit amet.
+                      li
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, ipsa.
+                      li Lorem.
+                tr
+                  td Строка 2 столбец 1
+                  td
+                    | Строка 2 
+                    a(href='/') ссылка в таблице
+                  td Строка 2 столбец 3
+                tr
+                  td
+                    ol
+                      li Lorem ipsum dolor.
+                      li Lorem ipsum.
+                      li
+                        | Lorem ipsum
+                        strong dolor
+                        |  sit amet.
+                      li Lorem.
+                  td Строка 3 столбец 2
+                  td Строка 3 столбец 3
+            h3 Таблица с стилем .clear в свойствах
+            table.clear
+              tbody
+                tr
+                  td Строка 1 столбец 1
+                  td Строка 1 столбец 2
+                  td Строка 1 столбец 3
+                tr
+                  td Строка 2 столбец 1
+                  td Строка 2 столбец 2
+                  td Строка 2 столбец 3
+                tr
+                  td Строка 3 столбец 1
+                  td Строка 3 столбец 2
+                  td Строка 3 столбец 3
+          +gallery
+          +videogallery
+
+  .site__footer
+    +footer
+
+  .toTop
+    i.icon-circle-up
+
+
+  +scripts
+
+
+
+  

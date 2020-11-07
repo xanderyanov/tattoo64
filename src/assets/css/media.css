@@ -37,15 +37,115 @@
   .age img {
     width: 40px;
   }
+  .jack__area {
+    padding: 100px 0 70px;
+  }
+  .jack__text {
+    font-size: 1.625rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .jack__name {
+    font-size: 1.25rem;
+  }
+  .about__outer {
+    padding: 30px 10px;
+  }
+  .about__left {
+    width: 100%;
+  }
+  .mainBlock__about {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about__right {
+    width: 100%;
+  }
+  .serv__left {
+    width: 100%;
+  }
+  .mainBlock__serv {
+    padding: 0;
+  }
+  .mainBlock__info {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  .mainBlock__title {
+    display: flex;
+    flex-direction: row;
+  }
+  .mainBlock__title span {
+    margin-right: 10px;
+  }
+  .serv__right {
+    width: 100%;
+  }
+  .service__main {
+    padding: 0;
+  }
+  .studioIcon__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 0;
+    position: relative;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .studioIcon__title span {
+    margin: 0 5px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+  .jack__area {
+    padding: 50px 0 30px;
+  }
+  .service__item {
+    height: 150px;
+    padding: 0 20px 0 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 480px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+  .about__content span {
+    margin: 7px 0;
+  }
+  .studioIcon__item {
+    width: 70%;
+    margin: 2rem 0;
+  }
+  .studioIcon__item i {
+    font-size: 3rem;
+  }
+  .studioIcon__item span {
+    font-size: 1.25rem;
+  }
+  .studioIcon__item:nth-child(2n) {
+    justify-content: flex-end;
+    margin-left: auto;
+  }
 }
 
 @media only screen and (max-width: 400px) {
+  .content img {
+    width: 100%;
+    float: none !important;
+  }
 }
 
 @media only screen and (max-width: 320px) {

@@ -1,0 +1,98 @@
+- var pageTitle = 'Цены'
+- var seoKeywords = 'Ключевые слова для страницы'
+- var seoDesc = 'Сео описание для страницы'
+
+include __const
+include __header
+include __footer
+include assets/chunks/portfolioCarousel/__portfolioCarousel
+
+
+
+
+<!doctype html>
+html(lang="ru-RU")
+  +head
+body
+
+  .site__header
+    +header
+
+  .site__center.page__wrapper(style="background-image: url(assets/img/bg9.jpg)")
+    .page__area
+      .pageTitle__outer.p1280
+        .pageTitle
+            h1 Ценообразование
+      .page__outer.p1280
+        .page
+          .content.clearfix
+            
+            p Высота 88, ширина 54 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, voluptatem facilis atque veniam quaerat sapiente nulla rem expedita, amet cumque illum dolore, perspiciatis animi ducimus placeat eos? Vel, repudiandae quam.
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, voluptatem facilis atque veniam quaerat sapiente nulla rem expedita, amet cumque illum dolore, perspiciatis animi ducimus placeat eos? Vel, repudiandae quam.
+            p Lorem ipsum dolor sit amet <a href="#">consectetur adipisicing</a> elit. Officia, voluptatem facilis atque veniam quaerat sapiente nulla rem expedita, amet cumque illum dolore, perspiciatis animi ducimus placeat eos? Vel, repudiandae quam.
+      
+      .price__outer.p1280
+        .price
+          section.price__itemOuter
+            .priceItem
+              .priceItemImg
+                a(href='assets/img/price/01.jpg', data-fancybox='group', data-caption='001')
+                  img(src='assets/img/price/01.jpg', alt='1')
+              .priceItem__info
+                .priceItem__title Простая татуировка
+                .priceItem__intro Простая одноцветная татуировка, выполняющаяся, как правило, за один сеанс.
+                .priceItem__desc Для работы требуется минимальный набор картриджей (элементов с иглами) и один цвет чернил, как правило черный.
+                .priceItem__footer
+                  .priceItem__time
+                    span *Ориентировочное время работы:
+                    span 1-2 часа
+                  .priceItem__price 
+                    span Стоимость от
+                    span 1500 рублей
+          section.price__itemOuter
+            .priceItem
+              .priceItemImg
+                a(href='assets/img/price/02.jpg', data-fancybox='group', data-caption='002')
+                  img(src='assets/img/price/02.jpg', alt='1')
+              .priceItem__info
+                .priceItem__title Сложная татуировка
+                .priceItem__intro Татуировка, содержащая усложненные элементы, выполняющаяся за один сеанс.
+                .priceItem__desc Для работы требуется несколько картриджей (элементов с иглами) и один цвет чернил, как правило черный.
+                .priceItem__footer
+                  .priceItem__time
+                    span *Ориентировочное время работы:
+                    span 3-5 часов
+                  .priceItem__price 
+                    span Стоимость от
+                    span 3500 рублей
+          section.price__itemOuter
+            .priceItem
+              .priceItemImg
+                a(href='assets/img/price/03.jpg', data-fancybox='group', data-caption='003')
+                  img(src='assets/img/price/03.jpg', alt='1')
+              .priceItem__info
+                .priceItem__title Татуировка высокой сложности
+                .priceItem__intro Татуировка, содержащая сложные элементы, тени, градиенты, разные цвета.
+                .priceItem__desc Для работы требуется большой набор картриджей (элементов с иглами) и один несколько цветов чернил.
+                .priceItem__footer
+                  .priceItem__time
+                    span *Ориентировочное время работы:
+                    span от 5 часов
+                  .priceItem__price 
+                    span Стоимость от
+                    span 10000 рублей
+
+
+
+  .site__footer
+    +footer
+
+  .toTop
+    i.icon-circle-up
+
+
+  +scripts
+
+
+
+  

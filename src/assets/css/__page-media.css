@@ -1,10 +1,4 @@
 @media only screen and (max-width: 1280px) {
-  .footerMenu li {
-    margin-right: 1.5rem;
-  }
-  .footerMenu li a {
-    font-size: 1rem;
-  }
 }
 
 @media only screen and (max-width: 1140px) {
@@ -17,38 +11,26 @@
 }
 
 @media only screen and (max-width: 920px) {
-  .f1 {
-    width: 100%;
-    align-items: center;
-  }
-  .footer__logo {
-    margin-bottom: 20px;
-  }
-  .f2 {
-    width: 100%;
-    align-items: center;
-    padding: 10px 0;
-  }
-  .footerMenu__area {
-    padding-bottom: 20px;
-  }
 }
 
 @media only screen and (max-width: 800px) {
 }
 
 @media only screen and (max-width: 768px) {
+  .gallery__item {
+    width: 33.333%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
 }
 
 @media only screen and (max-width: 480px) {
-  .footerMenu__area {
-    display: none;
+  .gallery__item {
+    width: 50%;
   }
-  .f3 {
-    padding: 20px 0 10px;
+  .videoBox__outer {
+    width: 100%;
   }
 }
 

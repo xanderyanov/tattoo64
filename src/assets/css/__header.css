@@ -1,6 +1,7 @@
 .header__area {
   position: relative;
   background-color: var(--grafit2);
+  background-color: #000;
 }
 
 .header__outer {

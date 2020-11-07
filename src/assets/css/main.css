@@ -2,14 +2,14 @@ html,
 body {
   color: #000;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
   position: relative;
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: var(--grafit1);
+  background-color: #000;
 }
 
 .site__header {
@@ -162,6 +162,7 @@ body {
   font-size: 1.875rem;
   font-style: italic;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .jack__name {
@@ -194,7 +195,11 @@ body {
   flex-direction: column;
 }
 
-.mainBlock {
+.mainBlock__about {
+  padding: 0 40px 0 50px;
+}
+
+.mainBlock__serv {
   padding: 0 40px 0 50px;
 }
 

@@ -8,15 +8,36 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .portfolioCarousel__slider {
+    padding: 1rem 0 0.5rem;
+  }
 }
 
 @media only screen and (max-width: 920px) {
+  .portfolioCarousel-container {
+    margin: 0 4rem;
+  }
 }
 
 @media only screen and (max-width: 800px) {
 }
 
 @media only screen and (max-width: 768px) {
+  .portfolioCarousel__item {
+    border: 5px solid #000;
+  }
+
+  .portfolioCarousel__left,
+  .portfolioCarousel__right {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    margin-top: -1rem;
+  }
+  .portfolioCarousel__left i,
+  .portfolioCarousel__right i {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (max-width: 600px) {
